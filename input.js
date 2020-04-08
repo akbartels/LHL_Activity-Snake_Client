@@ -43,8 +43,14 @@ const handleUserInput = (keyStroke) => {
   else if (keyStroke === 'd') {
     // console.log("you typed 'd'")
     connection.write("Move: right")
+  } 
+  else if (keyStroke === "t") {
+    connection.write("Say: Outta my way!!")
+  } 
+  else if (keyStroke === "r") {
+    connection.write("Say: Imma get you!!")
   }
-
+  
 }
 
 module.exports = {
