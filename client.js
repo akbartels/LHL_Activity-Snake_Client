@@ -3,6 +3,7 @@
  * Establishes connection with the game server
  */
 const net = require('net');
+
 const connect = function() {
   const conn = net.createConnection({ 
     host: '50.64.116.162',
@@ -24,8 +25,6 @@ const connect = function() {
     //   conn.write("Move: up")
     // }, 50)
 
-    
-
   //   setTimeout(() => {
   //     conn.write("Move: down")
   //   },50)
@@ -35,7 +34,6 @@ const connect = function() {
   //   setTimeout(() => {
   //     conn.write("Move: right")
   //   },150)
-
 
   });
   
