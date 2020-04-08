@@ -16,13 +16,13 @@ const connect = function() {
     conn.write("Name: AMY");
     // conn.write("Move: left")
 
-    const startTime = new Date().getTime();
-    setInterval(() => {
-      if (new Date().getTime() - startTime > 60000) {
-        clearInterval
-      }
-      conn.write("Move: up")
-    }, 50)
+    // const startTime = new Date().getTime();
+    // setInterval(() => {
+    //   if (new Date().getTime() - startTime > 60000) {
+    //     clearInterval
+    //   }
+    //   conn.write("Move: up")
+    // }, 50)
 
     
 
